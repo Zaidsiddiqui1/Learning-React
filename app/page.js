@@ -72,22 +72,28 @@ import 'react-toastify/dist/ReactToastify.css';
 // }
 
 
-// APIs
+// // APIs
+// const page = () => {
+//   const [num, setNum] = useState(10)
+//   const getData = async () => {
+//     const res = await axios.get('https://jsonplaceholder.typicode.com/users')
+//     console.log(res)
+//   }
+//   return (
+//     <div>
+//       <button onClick={getData} className="px-6 py-3 bg-purple-600 rounded-xl hover:bg-purple-700">Click</button>
+//     </div>
+//   )
+// }
+
+// Deployment
+// upload the folder on github
+// goto dashboard.render.com
 const page = () => {
-  const [num, setNum] = useState(10)
-  const getData = async () => {
-    const res = await axios.get('https://jsonplaceholder.typicode.com/users')
-    console.log(res)
-  }
   return (
     <div>
-      <button onClick={getData} className="px-6 py-3 bg-purple-600 rounded-xl hover:bg-purple-700">Click</button>
+      Deployment
     </div>
   )
 }
-
-// Deployment
-
-
-
 export default page
